@@ -36,6 +36,7 @@ Windows builds come with every
 | [`registry`](https://github.com/jennifer-language/registry) | The deck registry: the index `jvc` resolves against, and its operator CLI |
 | [`grimoire`](https://github.com/jennifer-language/grimoire) | A documentation site and a printable PDF from a directory of Markdown; builds every deck's manual. Plugins: [`grimoire-katex`](https://github.com/jennifer-language/grimoire-katex), [`grimoire-mermaid`](https://github.com/jennifer-language/grimoire-mermaid) |
 | [`cantrip`](https://github.com/jennifer-language/cantrip) | Markdown slide decks: an HTML slideshow and a PDF from one file |
+| [`academy`](https://github.com/jennifer-language/academy) | Talks that teach Jennifer, written by its users as cantrip slide decks: [academy.jennifer-lang.dev](https://academy.jennifer-lang.dev/) |
 | [`website`](https://github.com/jennifer-language/website) | www.jennifer-lang.dev, served by a Jennifer program |
 | [`deck-template`](https://github.com/jennifer-language/deck-template) | The starting point for a new deck, and the CI layer every deck shares |
 
@@ -57,6 +58,8 @@ import "@jennifer/influxdb/" as influxdb;
 | [`@jennifer/discord`](https://github.com/jennifer-language/deck-discord) | Post messages to a Discord channel through a webhook |
 | [`@jennifer/gotify`](https://github.com/jennifer-language/deck-gotify) | Push notifications to a Gotify server |
 | [`@jennifer/influxdb`](https://github.com/jennifer-language/deck-influxdb) | InfluxDB 1.x, 2.x and 3.x: line-protocol writes, InfluxQL and Flux queries |
+| [`@jennifer/mactelnet`](https://github.com/jennifer-language/deck-mactelnet) | MAC-Telnet: a RouterOS console by MAC address, to bootstrap a router with no IP |
+| [`@jennifer/mikrotik`](https://github.com/jennifer-language/deck-mikrotik) | The MikroTik RouterOS API: commands, queries and /listen streams over TCP or api-ssl |
 | [`@jennifer/oauthext`](https://github.com/jennifer-language/deck-oauthext) | Vendor OAuth2: Google and Microsoft presets, Google service accounts |
 | [`@jennifer/prometheus`](https://github.com/jennifer-language/deck-prometheus) | Prometheus metrics in the text exposition format, and queries against its HTTP API |
 | [`@jennifer/slack`](https://github.com/jennifer-language/deck-slack) | Post messages to Slack through an Incoming Webhook |
