@@ -8,7 +8,7 @@
 # Jennifer - a batteries-included programming language
 
 Jennifer is an interpreted language for real tools: 43 built-in libraries and
-76 modules - SQL, JSON / YAML / TOML / XML, HTTP client and server, mail,
+80 modules - SQL, JSON / YAML / TOML / XML, HTTP client and server, mail,
 crypto, MQTT, S3, MCP and more - in **one self-contained static binary**, with
 no runtime to install and no dependency tree to resolve. Its design is strict
 and explicit: conditions must be `bool`, conversions are spelled out, names
@@ -38,6 +38,7 @@ Windows builds come with every
 | [`cantrip`](https://github.com/jennifer-language/cantrip) | Markdown slide decks: an HTML slideshow and a PDF from one file |
 | [`academy`](https://github.com/jennifer-language/academy) | Talks that teach Jennifer, written by its users as cantrip slide decks: [academy.jennifer-lang.dev](https://academy.jennifer-lang.dev/) |
 | [`website`](https://github.com/jennifer-language/website) | www.jennifer-lang.dev, served by a Jennifer program |
+| [`rosetta`](https://github.com/jennifer-language/rosetta) | Jennifer solutions to [Rosetta Code](https://rosettacode.org/) tasks, each formatted, linted, run and compared with its expected output on every release |
 | [`deck-template`](https://github.com/jennifer-language/deck-template) | The starting point for a new deck, and the CI layer every deck shares |
 
 ## Official decks
