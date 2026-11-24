@@ -88,3 +88,11 @@ issue; the interpreter's
 says what a useful report holds.
 
 Jennifer is licensed under LGPL-3.0-only.
+
+## Trademarks
+
+Third-party product and company names on this page and in these
+repositories may be trademarks of their respective owners;
+[docs/trademarks.md](https://github.com/jennifer-language/jennifer/blob/main/docs/trademarks.md)
+lists the ones the Jennifer docs name. Jennifer is an independent project,
+not affiliated with, sponsored or endorsed by any of them.
