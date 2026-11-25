@@ -47,30 +47,19 @@ Decks are Jennifer's packages. They are vendored into your project with
 [jvc](https://jvc.jennifer-lang.dev/), never installed globally:
 
 ```sh
-jvc add @jennifer/influxdb
+jvc add @jennifer/oauthext
 ```
 
 ```jennifer
-import "@jennifer/influxdb/" as influxdb;
+import "@jennifer/oauthext/" as oauthext;
 ```
 
 | Deck | What it does |
 |---|---|
-| [`@jennifer/discord`](https://github.com/jennifer-language/deck-discord) | Post messages to a Discord channel through a webhook |
-| [`@jennifer/gotify`](https://github.com/jennifer-language/deck-gotify) | Push notifications to a Gotify server |
-| [`@jennifer/influxdb`](https://github.com/jennifer-language/deck-influxdb) | InfluxDB 1.x, 2.x and 3.x: line-protocol writes, InfluxQL and Flux queries |
-| [`@jennifer/mactelnet`](https://github.com/jennifer-language/deck-mactelnet) | MAC-Telnet: a RouterOS console by MAC address, to bootstrap a router with no IP |
-| [`@jennifer/mikrotik`](https://github.com/jennifer-language/deck-mikrotik) | The MikroTik RouterOS API: commands, queries and /listen streams over TCP or api-ssl |
 | [`@jennifer/oauthext`](https://github.com/jennifer-language/deck-oauthext) | Vendor OAuth2: Google and Microsoft presets, Google service accounts |
-| [`@jennifer/prometheus`](https://github.com/jennifer-language/deck-prometheus) | Prometheus metrics in the text exposition format, and queries against its HTTP API |
-| [`@jennifer/slack`](https://github.com/jennifer-language/deck-slack) | Post messages to Slack through an Incoming Webhook |
-| [`@jennifer/statsd`](https://github.com/jennifer-language/deck-statsd) | StatsD over UDP: counters, gauges, timings and sets, with DogStatsD tags and batching |
-| [`@jennifer/telegram`](https://github.com/jennifer-language/deck-telegram) | A Telegram Bot API client |
 
-Every published deck, official or not, can be found in the official
-[deck registry](https://registry.jennifer-lang.dev/browse), the index `jvc`
-installs from. Community decks live at [Deckyard](https://github.com/deckyard):
-API clients, file formats, science and more, each with a named maintainer.
+More decks, from [Deckyard](https://github.com/deckyard) and their own
+authors, are in the [deck registry](https://registry.jennifer-lang.dev/browse).
 
 ## Demos
 
