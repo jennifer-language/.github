@@ -41,25 +41,22 @@ Windows builds come with every
 | [`rosetta`](https://github.com/jennifer-language/rosetta) | Jennifer solutions to [Rosetta Code](https://rosettacode.org/) tasks, each formatted, linted, run and compared with its expected output on every release |
 | [`deck-template`](https://github.com/jennifer-language/deck-template) | The starting point for a new deck, and the CI layer every deck shares |
 
-## Official decks
+## Decks
 
 Decks are Jennifer's packages. They are vendored into your project with
 [jvc](https://jvc.jennifer-lang.dev/), never installed globally:
 
 ```sh
-jvc add @jennifer/oauthext
+jvc add @deckyard/oauthext
 ```
 
 ```jennifer
-import "@jennifer/oauthext/" as oauthext;
+import "@deckyard/oauthext/" as oauthext;
 ```
 
-| Deck | What it does |
-|---|---|
-| [`@jennifer/oauthext`](https://github.com/jennifer-language/deck-oauthext) | Vendor OAuth2: Google and Microsoft presets, Google service accounts |
-
-More decks, from [Deckyard](https://github.com/deckyard) and their own
-authors, are in the [deck registry](https://registry.jennifer-lang.dev/browse).
+Every published deck is in the
+[deck registry](https://registry.jennifer-lang.dev/browse); most are
+maintained at [Deckyard](https://github.com/deckyard).
 
 ## Demos
 
