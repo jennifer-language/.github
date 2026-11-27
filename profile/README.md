@@ -8,7 +8,7 @@
 # Jennifer - a batteries-included programming language
 
 Jennifer is an interpreted language for real tools: 43 built-in libraries and
-80 modules - SQL, JSON / YAML / TOML / XML, HTTP client and server, mail,
+72 modules - SQL, JSON / YAML / TOML / XML, HTTP client and server, mail,
 crypto, MQTT, S3, MCP and more - in **one self-contained static binary**, with
 no runtime to install and no dependency tree to resolve. Its design is strict
 and explicit: conditions must be `bool`, conversions are spelled out, names
@@ -64,6 +64,9 @@ maintained at [Deckyard](https://github.com/deckyard).
   multiplayer snake game for the Linux console, over UDP and TCP
 - [`demo-micrograd`](https://github.com/jennifer-language/demo-micrograd) - a
   scalar reverse-mode autodiff engine
+- [`demo-distributed`](https://github.com/jennifer-language/demo-distributed) -
+  a distributed computing framework: a master schedules prioritised tasks to
+  workers that find it on the local network
 
 ## Getting involved
 
